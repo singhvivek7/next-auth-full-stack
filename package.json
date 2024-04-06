@@ -9,14 +9,27 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@nextui-org/react": "^2.2.10",
+    "axios": "^1.6.8",
+    "bcryptjs": "^2.4.3",
+    "framer-motion": "^11.0.24",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.2.4",
     "next": "14.1.4",
+    "nodemailer": "^6.9.13",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "validator": "^13.11.0",
+    "zod": "^3.22.4"
   },
   "devDependencies": {
+    "@types/bcryptjs": "^2.4.6",
+    "@types/jsonwebtoken": "^9.0.6",
     "@types/node": "^20",
+    "@types/nodemailer": "^6.4.14",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "@types/validator": "^13.11.9",
     "autoprefixer": "^10.0.1",
     "eslint": "^8",
     "eslint-config-next": "14.1.4",
